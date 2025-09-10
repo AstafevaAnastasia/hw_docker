@@ -4,8 +4,8 @@ services:
     image: postgres:13-alpine
     environment:
       POSTGRES_DB: db
-      POSTGRES_USER: student
-      POSTGRES_PASSWORD: QWSRIT
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: 9mREsvXDs9Gk89Ef
     ports:
       - "5432:5432"
     volumes:
